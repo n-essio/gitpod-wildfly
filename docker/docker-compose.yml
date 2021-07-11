@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  wildfly:
+    image: jboss/wildfly
+    ports:
+      - '8080:8080'
+      - '9990:9990'
+      - '8787:8787'
+    command: /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 --debug *:8787
+    volumes:
+      - '/workspace/gitpod-wildfly/target/sampleproject.war:/opt/jboss/wildfly/standalone/deployments/sampleproject.war'

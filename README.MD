@@ -3,7 +3,7 @@ This project was created from the archetype "wildfly-jakartaee-webapp-archetype"
 To deploy it:
 Run the maven goals "install wildfly:deploy"
 
-To undeploy it:
+To undeploy idet:
 Run the maven goals "wildfly:undeploy"
 
 ==========================

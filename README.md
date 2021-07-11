@@ -1,2 +1,0 @@
-# gitpod-wildfly
-gitpod-wildfly
