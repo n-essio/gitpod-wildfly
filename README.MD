@@ -6,6 +6,9 @@ Run the maven goals "install wildfly:deploy"
 To undeploy idet:
 Run the maven goals "wildfly:undeploy"
 
+
+mvn archetype:generate -DgroupId=my.project.org -DartifactId=sampleproject -Dversion=1.0-SNAPSHOT -DarchetypeGroupId=org.wildfly.archetype -DarchetypeArtifactId=wildfly-jakartaee-webapp-archetype -DarchetypeVersion=24.0.0.Final
+
 ==========================
 
 DataSource:
